@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         String segundoVal = val2.getText().toString();
         double v1 = Double.parseDouble(primerVal);
         double v2 = Double.parseDouble(segundoVal);
-        resultado.setText(""+(v1+v2));
+        resultado.setText(" " + (v1 + v2));
     }
     public void restar(View view){
         String primerVal = val1.getText().toString();
         String segundoVal = val2.getText().toString();
         double v1 = Double.parseDouble(primerVal);
         double v2 = Double.parseDouble(segundoVal);
-        resultado.setText(""+(v1-v2));
+        resultado.setText(" " + (v1 - v2));
     }
 
     public void dividir(View view){
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         String segundoVal = val2.getText().toString();
         double v1 = Double.parseDouble(primerVal);
         double v2 = Double.parseDouble(segundoVal);
-        resultado.setText(""+(v1/v2));
+        resultado.setText(" " + (v1 / v2));
     }
 
     public void multiplicar(View view){
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         String segundoVal = val2.getText().toString();
         double v1 = Double.parseDouble(primerVal);
         double v2 = Double.parseDouble(segundoVal);
-        resultado.setText(""+(v1*v2));
+        resultado.setText(" " + (v1 * v2));
     }
 
     public void resetear(View view){
